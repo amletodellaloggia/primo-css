@@ -1,0 +1,10 @@
+/* CSS */
+#main-box {
+	height: 20px;
+	background-color: fuchsia;
+	color: white;
+}
+.generic-box {
+	background-color: cadetblue;
+	color: white;
+}
