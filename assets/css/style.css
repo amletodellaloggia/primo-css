@@ -1,10 +1,35 @@
 /* CSS */
-#main-box {
-	height: 20px;
-	background-color: fuchsia;
-	color: white;
+/* Esempi di CSS */
+
+/* selettore tag */
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
-.generic-box {
+
+p {
+	color: rgb(0, 0, 0);
+}
+li {
+	list-style: none;
+	color: rgb(159, 224, 74);
+}
+
+/* Assegnazione CSS a più elementi */
+/* Separando con virgola, si includono più elementi */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+	font-size: 32px;
+	text-align: center;
+}
+
+/* Selettore id */
+#main-box {
+	background-color: fuchsia;
+}
+
+/* Selettore class */
+.generic-box, .secondary-box {
 	background-color: cadetblue;
-	color: white;
 }
