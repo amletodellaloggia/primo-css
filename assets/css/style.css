@@ -3,7 +3,9 @@
 
 /* selettore tag */
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	background-color: darkgray;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
 }
 
 p {
@@ -23,6 +25,16 @@ h1 {
 	font-size: 32px;
 	text-align: center;
 }
+/* UTILIZZO FONT SIZE CON EM */
+/* Eredita dal font-size del GENITORE e SCALA con EM */
+h2 {
+	font-size: 1.5em;
+}
+/* UTILIZZO FONT SIZE CON REM */
+/* Eredita dal font-size DEFAULT e SCALA con REM */
+h3 {
+	font-size: 2rem;
+}
 
 /* Selettore id */
 #main-box {
@@ -32,4 +44,37 @@ h1 {
 /* Selettore class */
 .generic-box, .secondary-box {
 	background-color: cadetblue;
+}
+
+/* Esempio contenitore */
+.products-box {
+	padding: 10px;
+	width: 300px;
+	background-color: brown;
+}
+
+/* INCLUDERE FIGLI IN CLASS */
+.products-box img {
+	width: 100%;
+}
+
+.products-box p{
+	font-size: 1.5em;
+	color: yellow;
+}
+
+.box-image {
+	width: 300px;
+	height: 300px;
+	background-color: cadetblue;
+	background-image: url(/assets/img/bosco.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.box-image p{
+	background-color: rgba(0, 0, 0, 0.4);
+	font-size: 0.9rem;
+	padding: 10px;
 }
